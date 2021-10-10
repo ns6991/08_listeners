@@ -30,8 +30,8 @@ public class results_activity extends AppCompatActivity {
         winner = (TextView)findViewById(R.id.winner);
         player1.setText("player 1:" + s + "points");
         player2.setText("player 2:" + l + "points");
-        if(l<s) winner.setText("player 2 is the winner!");
-        else if(l>s) winner.setText("player 1 is the winner!");
+        if(l<s) winner.setText("player 1 is the winner!");
+        else if(l>s) winner.setText("player 2 is the winner!");
         else winner.setText("DRAW!");
 
 
