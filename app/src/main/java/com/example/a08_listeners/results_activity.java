@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class results_activity extends AppCompatActivity {
     Button returni;
-    ImageView imageView;
     Intent gi;
     TextView player1,player2,winner;
     int s;
@@ -25,8 +24,6 @@ public class results_activity extends AppCompatActivity {
         l = gi.getIntExtra("long",0);
         s = gi.getIntExtra("short",0);
 
-        imageView = (ImageView)findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.win);
         returni = (Button)findViewById(R.id.returni);
         player1 = (TextView)findViewById(R.id.player1);
         player2 = (TextView)findViewById(R.id.player2);

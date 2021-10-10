@@ -61,13 +61,6 @@
                     android:layout_height="0dp"
                     android:layout_weight="5" />
 
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_background"
-                    tools:ignore="VectorDrawableCompat" />
-
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="0dp"

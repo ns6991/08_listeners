@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener
 {
     Button shortButton, longButton, results;
-    ImageView imageView;
     int shorti;
     int longi;
 
@@ -22,8 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView = (ImageView)findViewById(R.id.imageView2);
-        imageView.setImageResource(R.drawable.comp);
+
 
         shortButton = (Button)findViewById(R.id.shortButton);
         longButton = (Button)findViewById(R.id.longButton);
@@ -62,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
 
         }
     }
-    
+
     @Override
     public boolean onLongClick (View v){
         longi += 2;
